@@ -15,7 +15,7 @@ export const ProjectList = [
         name: "ProjectMura (code is currently getting fixed)",
         image: ProjectMura,
         date: 2023,
-        id: "https://gx.games/games/g5pin6/farm-quest-temp-name/",
+        id: "https://gx.games/games/g5pin6/projectmura/",
     },
     {
         name: "HTML Personal Website",
@@ -27,7 +27,7 @@ export const ProjectList = [
         name: "PMAS (Personal, Medical, Assistant, Service)",
         image: PMAS,
         date: 2022,
-        id: "https://github.com/probably-dean-wu/THe_Medical_Assistant_-_Copy",
+        id: "https://github.com/MatiasCW/PMAS",
     },
     {
         name: "React Personal Website",

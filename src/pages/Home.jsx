@@ -16,7 +16,7 @@ function Home() {
     <div>
 
       <Grid container justifyContent={"center"} direction={"column"} alignItems="center" paddingLeft={6}>
-        <Grid item xs={10} sm={10} md={6} lg={6} xl={5}>
+        <Grid item xs={12} sm={10} md={10} lg={7} xl={5}>
           <h2 className='introTitle'> Hi, I'm Dean Wu </h2>
           <p className='paragraph' > I'm a computer science student at the University of Toronto who is deeply passionate about gaming, coding, keeping up with the latest technology, basketball, anime and more! Welcome to my digital haven. </p>
           <p className='paragraph'> This website will be updated regularly as it is still an unfinished project. </p>
@@ -28,16 +28,16 @@ function Home() {
 
       <Grid container justifyContent={"center"} direction={"row"} alignItems="center" paddingLeft={6}>
 
-        <Grid item xs={10} sm={10} md={6.1} lg={6.1} xl={1.7} paddingRight={2}>
+        <Grid item xs={12} sm={10} md={10} lg={7} xl={1.67} paddingRight={2}>
           <Box className='projectBoxes' >
             <p className='boxDate'> 2023 </p> 
             <h1 className='boxHeader'> ProjectMura</h1>
             <p className='boxParagraph a'> A game that demonstrates farming, fighting and world building.</p>
-            <Button variant='outlined' href='https://gx.games/games/g5pin6/farm-quest-temp-name/' target='_blank'>Demo</Button>
+            <Button variant='outlined' href='https://gx.games/games/g5pin6/projectmura/' target='_blank'>Demo</Button>
           </Box>
         </Grid> 
 
-        <Grid item xs={10} sm={10} md={6.1} lg={6.1} xl={1.7} paddingRight={2}>
+        <Grid item xs={12} sm={10} md={10} lg={7} xl={1.67} paddingRight={2}>
           <Box className='projectBoxes'>
             <p className='boxDate'> 2022 </p> 
             <h1 className='boxHeader'> <Link color={"#FFFFFF"} underline="hover" href="https://github.com/probably-dean-wu/SpringField-Village" target="_blank">SpringField Village</Link></h1>
@@ -46,7 +46,7 @@ function Home() {
           </Box>
         </Grid>
 
-        <Grid item xs={10} sm={10} md={6.1} lg={6.1} xl={1.7} paddingRight={2}>
+        <Grid item xs={12} sm={10} md={10} lg={7} xl={1.67} paddingRight={2}>
           <Box className='projectBoxes' >
             <p className='boxDate'> 2022 </p> 
             <h1 className='boxHeader'> <Link color={"#FFFFFF"} underline="hover" href="https://github.com/probably-dean-wu/probably-dean-wu.github.io" target="_blank">HTML Website</Link></h1>
@@ -58,7 +58,7 @@ function Home() {
 
 
       <Grid container justifyContent={"center"} direction={"column"} alignItems="center" paddingLeft={6}>
-        <Grid item  xs={10} sm={10} md={6} lg={6} xl={5}>
+        <Grid item  xs={12} sm={10} md={10} lg={7} xl={5}>
           <h1 className='introTitle'>
             Miscellaneous
           </h1>

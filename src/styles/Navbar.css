@@ -15,18 +15,13 @@
 .navbar a {
   color: white;
   text-decoration: none;
-  margin: 20px;
+  margin: 1.8vw;
   font-size: 22px;
   outline: solid 1px #303030;
   border-radius: 10px;
   padding: 10px;
   font-family: "Inter",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
   transition: 0.3s;
-}
-
-.navbar a :hover{
-  transition: 0.3s;
-  background-color: rgba(240, 240, 240, 0.2);
 }
 
 .toggleButton {
