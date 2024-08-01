@@ -9,7 +9,7 @@ function Resume() {
   return (
     <div>          
       <Grid container justifyContent={"center"} direction={"column"} alignItems="center" paddingLeft={6}>
-        <Grid item xs={6} sm={6} lg={6}>
+        <Grid item xs={10} sm={10} md ={10} lg={7} xl={5}>
           <h1 className='resumeTitle'>
             Dean Wu
           </h1>
