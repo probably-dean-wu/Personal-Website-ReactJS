@@ -13,7 +13,7 @@ import Resume from './pages/Resume';
 import SpringField from './projects/springfieldvillage';
 import HTML from './projects/htmlwebsite';
 import Website from './projects/reactwebsite';
-import Elevator from './projects/Elevator';
+import Elevator from './projects/ArudinoElevator';
 import PMAS from './projects/pmas';
 import Mura from './projects/projectmura';
 function App() {
