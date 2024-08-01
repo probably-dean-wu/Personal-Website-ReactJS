@@ -31,7 +31,7 @@ function Footer() {
         </Link>
         </div>
         <p>
-            &copy; 2024 deanwu.dev
+            &copy; 2024 deanwu.me
         </p>
         
     </div>
