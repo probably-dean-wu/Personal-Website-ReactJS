@@ -33,7 +33,7 @@ export const ProjectList = [
         name: "React Personal Website",
         image: Website,
         date: 2024,
-        id: "https://github.com/probably-dean-wu/React-Website",
+        id: "https://github.com/probably-dean-wu/Personal-Website-ReactJS",
     },
     {
         name: "Elevator with Arduino",

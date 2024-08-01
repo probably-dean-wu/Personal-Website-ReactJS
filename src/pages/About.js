@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "../styles/About.css"
 import Link from '@mui/material/Link';
 import Grid from '@mui/system/Unstable_Grid';
 function About() {
+  useEffect(() => {
+    document.title = "Me"
+  })
   return (
     <div>
       <Grid container justifyContent={"center"} direction={"column"} alignItems="center" paddingLeft={6}>

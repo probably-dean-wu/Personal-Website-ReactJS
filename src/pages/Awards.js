@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Box } from '@mui/material'
 import Grid from '@mui/system/Unstable_Grid';
 import "../styles/Awards.css"
@@ -12,6 +12,9 @@ import Technical from "../Images/best-tech-game.png";
 import Scholar from "../Images/ontario-scholar.png";
 import MVP from "../Images/MVP-GameMaking.png"
 function Awards() {
+  useEffect(() => {
+    document.title = "Awards"
+  })
   return (
     <div>
       <h1>

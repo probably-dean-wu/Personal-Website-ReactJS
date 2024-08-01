@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ProjectItem from './ProjectItem'
 import "../styles/Project.css"
 import { ProjectList } from "../helpers/ProjectList"
 
 function Projects() {
+  useEffect(() => {
+    document.title = "Projects"
+  })
   return (
     <div className='projects'> 
       <h1> Personal Projects</h1> 

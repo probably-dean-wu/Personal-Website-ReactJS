@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../styles/Home.css'
 import { Box } from '@mui/material'
 import Grid from '@mui/system/Unstable_Grid';
@@ -8,6 +8,10 @@ import Button from '@mui/material/Button';
 import Link from '@mui/material/Link';
 import PC from "../Images/pc-icon.png"
 function Home() {
+
+  useEffect(() => {
+    document.title = "Home"
+  })
   return (
     <div>
 
