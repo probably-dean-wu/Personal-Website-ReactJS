@@ -15,7 +15,7 @@
 .navbar a {
   color: white;
   text-decoration: none;
-  margin: 1.8vw;
+  margin: 1vw;
   font-size: 22px;
   outline: solid 1px #303030;
   border-radius: 10px;
@@ -54,18 +54,10 @@
 }
 
 #open a {
-  width: 100%;
-  text-align: center;
+  width: 60%;
+  text-align: left;
 }
 
-@media only screen and (max-width: 900px) {
-  .navbar a {
-    width: 70px;
-    outline: none;
-    border-radius: none;
-    padding: none;
-  }
-}
 
 @media only screen and (max-width: 600px) {
   .toggleButton {
@@ -73,6 +65,9 @@
   }
   #close a {
     display: none;
+  }
+  .navbar a {
+    padding-left: 30px;
   }
 }
 

@@ -7,6 +7,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import CodeIcon from '@mui/icons-material/Code';
 import DescriptionIcon from '@mui/icons-material/Description';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import AttachFileIcon from '@mui/icons-material/AttachFile';
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
 
@@ -33,6 +34,7 @@ function Navbar() {
         <Link to="/projects" className={location.pathname === "/projects" ? "navBoxActive" : "navBox"}> <CodeIcon /> Projects </Link>
         <Link to="/experience" className={location.pathname === "/experience" ? "navBoxActive" : "navBox"}> <DescriptionIcon /> Experience </Link>
         <Link to="/awards" className={location.pathname === "/awards" ? "navBoxActive" : "navBox"}> <EmojiEventsIcon /> Awards </Link>
+        <Link to="/resume" className={location.pathname === "/resume" ? "navBoxActive" : "navBox"}> <AttachFileIcon /> Resume </Link>
       </div>
     </div>
   );

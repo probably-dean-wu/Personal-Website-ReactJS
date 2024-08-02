@@ -8,8 +8,8 @@ function About() {
   })
   return (
     <div>
-      <Grid container justifyContent={"center"} direction={"column"} alignItems="center" paddingLeft={6}>
-        <Grid item xs={10} sm={10} md ={10} lg={7} xl={5}>
+      <Grid container justifyContent={"center"} direction={"column"} alignItems="center">
+        <Grid item xs={10} sm={10} md ={8} lg={7} xl={5}>
           <h1 className='aboutTitle'> About me </h1>
           <p className='text'> 
             Hello, I'm Dean. I've been studying computer science, making games and building websites since 2022. 
