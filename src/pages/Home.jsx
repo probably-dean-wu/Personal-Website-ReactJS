@@ -28,7 +28,7 @@ function Home() {
           <Box className='projectBoxes' >
             <p className='boxDate'> 2023 </p> 
             <h1 className='boxHeader'> ProjectMura</h1>
-            <p className='boxParagraph a'> A game that demonstrates farming, fighting and world building.</p>
+            <p className='boxParagraph'> A game that demonstrates farming, fighting and world building.</p>
             <Button variant='outlined' href='https://gx.games/games/g5pin6/projectmura/' target='_blank'>Demo</Button>
           </Box>
         </Grid> 
