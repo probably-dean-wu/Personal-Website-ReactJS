@@ -1,5 +1,4 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
 function ProjectItem({ image, name, date, id }) {
   return (
     <div className="projectItem" >

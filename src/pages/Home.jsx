@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react'
 import '../styles/Home.css'
-import { Box } from '@mui/material'
 import Grid from '@mui/system/Unstable_Grid';
-import Button from '@mui/material/Button';
-import Link from '@mui/material/Link';
+import { HomeList } from '../helpers/HomeList';
+import HomeItem from './HomeItem';
 function Home() {
 
   useEffect(() => {
@@ -24,35 +23,10 @@ function Home() {
       </Grid>
 
       <Grid container justifyContent={"center"} direction={"row"} alignItems="center">
-        <Grid item xs={10} sm={10} md={8} lg={7} xl={1.6} margin={1}>
-          <Box className='projectBoxes' >
-            <p className='boxDate'> 2023 </p> 
-            <h1 className='boxHeader'> ProjectMura</h1>
-            <p className='boxParagraph'> A game that demonstrates farming, fighting and world building.</p>
-            <Button variant='outlined' href='https://gx.games/games/g5pin6/projectmura/' target='_blank'>Demo</Button>
-          </Box>
-        </Grid> 
-
-        <Grid item xs={10} sm={10} md={8} lg={7} xl={1.6} margin={1}>
-          <Box className='projectBoxes'>
-            <p className='boxDate'> 2022 </p> 
-            <h1 className='boxHeader'> <Link color={"#FFFFFF"} underline="hover" href="https://github.com/probably-dean-wu/SpringField-Village" target="_blank">SpringField Village</Link></h1>
-            <p className='boxParagraph'> A game about recuing a village that has been torn apart by monsters.</p>
-              <Button variant='outlined' href='https://gx.games/games/owhc19/springfield-village/'  target='_blank'>Demo</Button>
-          </Box>
-        </Grid>
-
-        <Grid item xs={10} sm={10} md={8} lg={7} xl={1.6} margin={1}>
-          <Box className='projectBoxes' >
-            <p className='boxDate'> 2022 </p> 
-            <h1 className='boxHeader'> <Link color={"#FFFFFF"} underline="hover" href="https://github.com/probably-dean-wu/probably-dean-wu.github.io" target="_blank">HTML Website</Link></h1>
-            <p className='boxParagraph'> A personal website made in grade 12 for my computer science class</p>
-            <Button variant='outlined' href='https://probably-dean-wu.github.io' target='_blank'>Demo</Button>
-          </Box>
-          </Grid>
+        {HomeList.map((home) => {
+          return <HomeItem name = {home.name} description={home.description} link={home.link} date={home.date}/>
+        })}
       </Grid>
-
-
     </div>
   )
 }

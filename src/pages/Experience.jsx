@@ -5,7 +5,6 @@ import '../styles/Experience.css'
 import SchoolIcon from '@mui/icons-material/School';
 import WorkIcon from '@mui/icons-material/Work';
 import EngineeringIcon from '@mui/icons-material/Engineering';
-import { useNavigate } from 'react-router-dom';
 function Experience() {
 
   useEffect(() => {
