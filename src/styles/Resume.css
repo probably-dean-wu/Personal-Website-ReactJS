@@ -39,3 +39,6 @@
     font-size: 25px;
 
 }
+li::marker {
+    color: #D3D3D3;
+}

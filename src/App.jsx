@@ -16,6 +16,10 @@ import Website from './projects/reactwebsite';
 import Elevator from './projects/ArudinoElevator';
 import PMAS from './projects/pmas';
 import Mura from './projects/projectmura';
+import Proof from './notes/Proof';
+import Note from "./notes/Note";
+import Sets from "./notes/Sets_and_Proposition";
+import Logic from './notes/Logic';
 function App() {
 
   return (
@@ -36,6 +40,10 @@ function App() {
           <Route path='/elevator' element={<Elevator />}/>
           <Route path='/pmas' element={<PMAS />}/>
           <Route path='/projectmura' element={<Mura />}/>
+          <Route path='/intro-to-proof' element={<Proof />} />
+          <Route path='/notes' element={<Note />} />
+          <Route path='/sets-and-propositions' element={<Sets />} />
+          <Route path='/logic' element={<Logic />} />
         </Routes>
         <Footer />
       </Router>
