@@ -22,7 +22,7 @@ function Home() {
         </Grid>
       </Grid>
 
-      <Grid container justifyContent={"center"} direction={"row"} alignItems="center">
+      <Grid container justifyContent={"center"} direction={"row"} alignItems="center" marginLeft={1.5} marginRight={1.5}>
         {HomeList.map((home) => {
           return <HomeItem name = {home.name} description={home.description} link={home.link} date={home.date}/>
         })}

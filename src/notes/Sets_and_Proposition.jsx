@@ -95,7 +95,7 @@ function Sets_and_Proposition() {
           <p className='texttitle'> <b> Logical Operators </b></p>
           <ol className='textfont'> 
             <li className='textproof'> <b> Conjuction (AND) </b> - Given two predicates P, Q, P ∧ Q becomes true only if both P and Q are true predicates. </li>
-            <li className='textproof'> <b> Disjunction (OR) </b> - Given two predicates P, Q, P ∨ Q becomes true only if one of P or Q is true. </li>
+            <li className='textproof'> <b> Disjunction (OR) </b> - Given two predicates P, Q, P ∨ Q becomes true if one or both P or Q is true. </li>
             <li className='textproof'> <b> Negation (NOT) </b> - Given a predicate P, if P is true then ¬P would be false. </li>
           </ol>
 

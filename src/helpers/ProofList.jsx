@@ -1,7 +1,7 @@
 
 export const ProofList = [
     {
-        title: ["Sets and Propositions",],
-        links: ["/sets-and-propositions",]
+        title: ["Sets and Propositions", "Logic",],
+        links: ["/sets-and-propositions", "/logic",]
     },
 ]
